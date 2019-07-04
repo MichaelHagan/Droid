@@ -1,0 +1,54 @@
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+
+       <TextView
+           android:layout_marginTop="50dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Welcome to Rock Paper Scissors!"
+           android:textAlignment="center"
+           android:textSize="34dp"
+           android:textColor="@android:color/black"
+           />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <TextView
+               android:layout_marginTop="150dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Enter Number of Rounds"
+               android:textAlignment="center"
+               android:textSize="34dp"
+               android:textColor="@android:color/black"
+               />
+
+           <EditText
+               android:id="@+id/Rounds"
+               android:layout_width="75dp"
+               android:layout_height="65dp"
+               android:hint="Rounds"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentBottom="true"
+               android:layout_marginBottom="120dp"
+               android:gravity="center"
+               android:inputType="number"
+               />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentBottom="true"
+               android:layout_marginBottom="50dp"
+               android:text="Submit"
+               android:onClick="Submit"/>
+
+       </RelativeLayout>
+
+   </LinearLayout>
